@@ -2,7 +2,7 @@
 import hashlib
 
 class Block:
-    def __init__(self, data: str, previous_hash: _hashlib.HASH):
+    def __init__(self, data: str, previous_hash):
         """Initializes the block with the given data and previous hash
 
         Args:

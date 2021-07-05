@@ -38,7 +38,7 @@ class Chain:
         Args:
             block (Block): block to be added to the chain
         """
-        if self.proof_of_work():
+        if self.proof_of_work(block):
             self.blocks.append(block)
         
     def add_to_pool(self, data: str):
